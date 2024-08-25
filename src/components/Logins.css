@@ -1,0 +1,126 @@
+.login-container {
+  display: flex;
+  background-color: white; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+ .login-form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+ }
+
+
+.login-container h1 {
+  display: flex;
+  margin-bottom: 50px;
+  font-weight: bolder ;
+  justify-content: center;
+
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-container form label {
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: 10px;
+  margin-left: 5px;
+  
+}
+
+.login-container form input {
+  display: flex;
+  width: 400px;
+  height:15px;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #4fc3dc;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.login-container form input:active, input:hover{
+  border: 1px solid linear-gradient(to right, #4fc3dc 0%, #0c192c 100%,);
+  ;
+}
+
+.login-container form .login-submit {
+  width: 427px;
+  display: flex;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+  font-weight: bold;
+  justify-content: center;
+  background-image: linear-gradient(to right, #0c192c 0%, #4fc3dc 100%);
+}
+
+.login-container form button:hover {
+  background-color: white;
+  color:white;
+  font-weight: bold;
+  
+  background-image: linear-gradient(to right, #4fc3dc 0%, #0c192c 100%,);
+}
+
+.login-container .forget-password {
+  display: flex;
+  color: #1d355a;
+  font-weight: bold;
+  margin-left: 70%;
+}
+
+.login-container a.forget-password {
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.login-container .p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   align-items: center;  
+   margin-top: 30px;
+}
+
+.p .login-signUp{
+margin-left: 2px;
+color: #0c192c;
+font-size: 0.8rem;
+color: #1d355a;
+font-weight: bold;
+} 
+
+.forget-password:hover,.login-signUp:hover{
+  color: #4fc3dc;
+  transition-duration: 0.3s;
+}
+
+@media(max-width: 1000px){
+
+  .login-container form{
+   width: 300%;
+  }
+  .login-container form input{
+    width: 400px;
+
+  form {
+      width: 200px;
+    }
+  }
+
+
+}

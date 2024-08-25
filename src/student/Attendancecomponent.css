@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f0f2f5; /* Light grey background */
+}
+
+.attendance-component {
+  
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0; /* Light grey border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  margin: 20px; /* Margin outside the box */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 400px; /* Maximum width */
+  width: 100%; /* Full width */
+  font-family: 'Arial, sans-serif'; /* Font family */
+  text-align: center; /* Center-align text */
+}
+
+.attendance-component h1 {
+  font-size: 24px; /* Larger font size for title */
+  margin-bottom: 10px; /* Space below the title */
+  color: #333; /* Dark text color */
+}
+
+.attendance-component p {
+  margin: 5px 0; /* Vertical space between paragraphs */
+  color: #666; /* Medium text color */
+  font-size: 16px; /* Font size */
+}
+
+.attendance-component p:first-of-type {
+  margin-top: 10px; /* Extra space above the first paragraph */
+  font-weight: bold; /* Bold font weight */
+}
+
+.attendance-component p:last-of-type {
+  margin-bottom: 20px; /* Margin below the last paragraph to separate from button */
+}
+
+.checkIn {
+  background-color: #ff4d4f; /* Red background color */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.checkIn:hover {
+  background-color: #e60000; /* Darker red on hover */
+}

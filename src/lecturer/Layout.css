@@ -1,0 +1,15 @@
+.layoutNavbar{
+  top: 0;
+  display: flex;
+}
+
+.layoutOutlet{
+  display: flex;
+}
+
+
+
+.footers{
+  
+  bottom: 0;
+}

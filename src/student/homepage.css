@@ -1,0 +1,22 @@
+.homepage{
+  /* margin-top: -50; */
+  height: 100vh;
+  /* background-color: red; */
+ }
+ .homeStudent{
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+
+ .attendance-component {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px); /* Responsive 3 per row with space */
+  box-sizing: border-box;
+}

@@ -1,0 +1,62 @@
+:root{
+  --background:#0c192c;
+  --color1:#4fc3dc;
+  --color11:#4fc3dc44;
+  --color2:#ff2d75;
+  --color22:#ff2d7544;
+}
+
+/* *{
+ 
+  border: 0;
+  box-sizing: border-box;
+  background-attachment: calc(background); 
+} */
+.container{
+  min-height: 100vh;
+  background: var(--background);
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bubbles{
+  position:relative;
+  display: flex;
+}
+.bubbles span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background:var(--color1);
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px var(--color11),
+  0 0 5px var(--color1),
+  0 0 50px var(--color1);
+  animation: animate 15s linear infinite;
+  animation-duration: calc(225s / var(--i));
+}
+.bubbles span:nth-child(even){
+  background: var(--color2);
+  box-shadow: 0 0 0 10px var(--color22),
+  0 0 0 5px var(--color2),
+  0 0 0 50px var(--color2);
+}
+.bubbles span:nth-child(odd){
+  background: var(--color1);
+  box-shadow: 0 0 0 10px var(--color11),
+  0 0 0 5px var(--color1),
+  0 0 0 50px var(--color1);
+}
+
+
+
+@keyframes animate{
+  0%{
+    transform: translateY(100vh) scale(0.05);
+  }
+  100%{
+    transform: translateY(-10vh) scale(0.2);
+  }
+
+}
