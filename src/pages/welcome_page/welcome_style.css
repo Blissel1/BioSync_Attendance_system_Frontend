@@ -1,0 +1,37 @@
+/* Welcome section styles */
+#welcome_section {
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Ensures no overflow */
+  }
+  
+  /* Outer container with background overlay */
+  .welcome_outer_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/images/welcome_overlay.png) center center / cover no-repeat; /* Centered, covered, and no-repeat */
+    position: absolute; /* Allows the background to cover the full container */
+    z-index: 1; /* Ensures it is below the text container */
+    filter: brightness(75%); /* Darkens the background image */
+  }
+  
+  /* Text container with centering */
+  .welcome_text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    z-index: 2; /* Ensures the text is above the background */
+    padding: 3rem; /* Adds padding for spacing */
+    text-align: center; /* Centers the text inside */
+    color: #fff; /* Sets text color to white for better contrast */
+  }
+  

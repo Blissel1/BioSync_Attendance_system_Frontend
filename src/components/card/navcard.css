@@ -1,0 +1,30 @@
+.nav_card_container {
+    height: 7rem;
+    width: 12rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.nav_card_container:hover {
+    background: var(--bg_primary_dark_2)
+}
+
+.nav_card_icon {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_card_container:hover .nav_card_icon{
+    transform: rotateX(360deg);
+}
+
+.nav_card_name {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}

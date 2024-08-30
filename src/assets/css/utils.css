@@ -1,0 +1,29 @@
+/* Button */
+.btn_primary_dark_1 {
+    background-color: var(--bg_primary_dark_1);
+    color: var(--text_white);
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+.btn_primary_dark_1:hover {
+    border:2px solid var(--bg_primary_dark_1);
+    color: var(--bg_primary_dark_1);
+    background-color: var(--bg_light_1);
+}
+
+.btn_primary_dark_2 {
+    background-color: var(--bg_primary_dark_2);
+    color: var(--text_white);
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+.btn_primary_dark_2:hover {
+    border:2px solid var(--bg_primary_dark_2);
+    color: var(--bg_primary_dark_2);
+    background-color: var(--bg_light_1);
+}
+
+/* Font */
+.hover_underline:hover {
+    text-decoration: underline;
+}

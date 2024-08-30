@@ -1,0 +1,55 @@
+:root {
+    /* Background Colors */
+    --bg_light: rgb(236, 236, 236);
+    --bg_light_1: var(--bg_light);
+    --bg_white: rgb(255, 255, 255);
+    
+    --bg_primary: rgb(18, 152, 237);
+    --bg_primary_1: var(--bg_primary);
+    --bg_primary_light: rgb(216, 237, 246);
+
+    --bg_primary_dark: rgb(43, 69, 88);
+    --bg_primary_dark_1: var(--bg_primary_dark);
+    --bg_primary_dark_2: rgb(13, 42, 62);
+
+    --bg_danger: rgb(250, 65, 51);
+    --bg_danger_1: var(--bg_danger);
+    --bg_danger_light: rgb(243, 222, 222);
+
+    --bg_warning: rgb(255, 151, 51);
+    --bg_warning_1: var(--bg_warning);
+    --bg_warning_light: rgb(252, 248, 229);
+
+    --bg_success: rgb(68, 175, 92);
+    --bg_success_1: var(--bg_success);
+    --bg_success_light: rgb(222, 240, 218);
+
+    /* Text Colors */
+    --text_light: rgb(236, 236, 236);
+    --text_light_1: var(----text_light);
+    --text_white: rgb(255, 255, 255);
+    
+    --text_primary: rgb(18, 152, 237);
+    --text_primary_1: var(----text_primary);
+    --text_primary_light: rgb(216, 237, 246);
+
+    --text_primary_dark: rgb(43, 69, 88);
+    --text_primary_dark_1: var(----text_primary_dark);
+    --text_primary_dark_2: rgb(13, 42, 62);
+
+    --text_danger: rgb(250, 65, 51);
+    --text_danger_1: var(----text_danger);
+    --text_danger_light: rgb(243, 222, 222);
+
+    --text_warning: rgb(255, 151, 51);
+    --text_warning_1: var(----text_warning);
+    --text_warning_light: rgb(252, 248, 229);
+
+    --text_success: rgb(68, 175, 92);
+    --text_success_1: var(----text_success);
+    --text_success_light: rgb(222, 240, 218);
+
+
+    --text_muted: rgb(128, 128, 128);
+
+}

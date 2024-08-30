@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*
+  |----------------------------------------
+  | Body 
+  |----------------------------------------
+*/
+body {
+  background-color: var(--bg_light);
+  scroll-behavior: smooth;
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.05rem;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+  
+  /*
+    |----------------------------------------
+    | App layout container
+    |----------------------------------------
+  */
+#app_wrapper {
+  min-height: 100vh;
+}
+
+#app_wrapper a {
+  text-decoration: none;
+}
+
+#main_content_container {
+  height: 100vh;
+  overflow-y:scroll;
+}
+#main_content_container section {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+#footer_section{
+  height: 8vh;
+}

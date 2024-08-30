@@ -1,0 +1,91 @@
+
+.diable_navbar {
+  display: none !important;
+  border: 2px solid red;
+}
+
+#side_nav_bar_container {
+    top: 0;
+    bottom: 0;
+}
+
+
+#side_nav_bar_container a {
+    color: var(--text_light);
+}
+
+#side_nav_bar_container .nav-item {
+    border-bottom: 1px solid var(--text_muted);
+}
+
+#side_nav_bar_container .nav-item:hover .nav-link {
+    transition: all 0.4s ease;
+    background-color: var(--bg_primary_dark_2);
+}
+#side_nav_bar_container .nav-item .nav-link.active_nav {
+    background-color: var(--bg_primary_dark_2);
+    color: var(--text_success);
+}
+#side_nav_bar_container .nav-item .nav-link.active_nav .icon{
+    color: var(--text_success);
+    transition: all 0.4s ease;
+}
+
+
+
+  
+  #side_nav_bar_container .dropdown-toggle { outline: 0; }
+  
+  #side_nav_bar_container .nav-flush .nav-link {
+    border-radius: 0;
+  }
+  
+  #side_nav_bar_container .btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    background-color: transparent;
+    border: 0;
+  }
+  #side_nav_bar_container .btn-toggle:hover,
+  #side_nav_bar_container .btn-toggle:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: #d2f4ea;
+  }
+  
+  #side_nav_bar_container .btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+  }
+  
+  #side_nav_bar_container .btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+  }
+  #side_nav_bar_container .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+  
+  #side_nav_bar_container .btn-toggle-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+  }
+  #side_nav_bar_container .btn-toggle-nav a:hover,
+  #side_nav_bar_container .btn-toggle-nav a:focus {
+    background-color: #d2f4ea;
+  }
+  
+  #side_nav_bar_container .scrollarea {
+    overflow-y: auto;
+  }
+  
+  #side_nav_bar_container .fw-semibold { font-weight: 600; }
+  #side_nav_bar_container .lh-tight { line-height: 1.25; }
+  

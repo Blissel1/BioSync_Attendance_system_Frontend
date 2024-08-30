@@ -1,0 +1,151 @@
+/* Background colors */
+.bg_light {
+    background-color: var(--bg_light);
+}
+
+.bg_light_1 {
+    background-color: var(--bg_light_1);
+}
+
+.bg_white {
+    background-color: var(--bg_white);
+}
+
+.bg_primary {
+    background-color: var(--bg_primary);
+}
+
+.bg_primary_1 {
+    background-color: var(--bg_primary_1);
+}
+
+.bg_primary_light {
+    background-color: var(--bg_primary_light);
+}
+
+.bg_primary_dark {
+    background-color: var(--bg_primary_dark);
+}
+
+.bg_primary_dark_1 {
+    background-color: var(--bg_primary_dark_1);
+}
+
+.bg_primary_dark_2 {
+    background-color: var(--bg_primary_dark_2);
+}
+
+.bg_danger {
+    background-color: var(--bg_danger);
+}
+
+.bg_danger_1 {
+    background-color: var(--bg_danger_1);
+}
+
+.bg_danger_light {
+    background-color: var(--bg_danger_light);
+}
+
+.bg_warning {
+    background-color: var(--bg_warning);
+}
+
+.bg_warning_1 {
+    background-color: var(--bg_warning_1);
+}
+
+.bg_warning_light {
+    background-color: var(--bg_warning_light);
+}
+
+.bg_success {
+    background-color: var(--bg_success);
+}
+
+.bg_success_1 {
+    background-color: var(--bg_success_1);
+}
+
+.bg_success_light {
+    background-color: var(--bg_success_light);
+}
+
+
+
+/* Text colors */
+.text_light {
+    color: var(--text_light);
+}
+
+.text_light_1 {
+    color: var(--text_light_1);
+}
+
+.text_white {
+    color: var(--text_white);
+}
+
+.text_primary {
+    color: var(--text_primary);
+}
+
+.text_primary_1 {
+    color: var(--text_primary_1);
+}
+
+.text_primary_light {
+    color: var(--text_primary_light);
+}
+
+.text_primary_dark {
+    color: var(--text_primary_dark);
+}
+
+.text_primary_dark_1 {
+    color: var(--text_primary_dark_1);
+}
+
+.text_primary_dark_2 {
+    color: var(--text_primary_dark_2);
+}
+
+.text_danger {
+    color: var(--text_danger);
+}
+
+.text_danger_1 {
+    color: var(--text_danger_1);
+}
+
+.text_danger_light {
+    color: var(--text_danger_light);
+}
+
+.text_warning {
+    color: var(--text_warning);
+}
+
+.text_warning_1 {
+    color: var(--text_warning_1);
+}
+
+.text_warning_light {
+    color: var(--text_warning_light);
+}
+
+.text_success {
+    color: var(--text_success);
+}
+
+.text_success_1 {
+    color: var(--text_success_1);
+}
+
+.text_success_light {
+    color: var(--text_success_light);
+}
+
+.text_mute {
+    color: var(--text_muted);
+}
